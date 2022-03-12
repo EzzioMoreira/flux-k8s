@@ -3,7 +3,7 @@ apiVersion: notification.toolkit.fluxcd.io/v1beta1
 kind: Provider
 metadata:
   name: naw-provider
-  namespace: flux-system
+  namespace: flux
 spec:
   channel: metal-fluxcd
   secretRef:
