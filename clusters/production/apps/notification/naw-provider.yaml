@@ -1,8 +1,8 @@
 ---
 apiVersion: notification.toolkit.fluxcd.io/v1beta1
-kind: Provider
+kind: Receiver
 metadata:
-  name: naw-provider
+  name: github-receiver
   namespace: flux
 spec:
   channel: general
@@ -12,9 +12,9 @@ spec:
   username: fluxcd
 ---
 apiVersion: notification.toolkit.fluxcd.io/v1beta1
-kind: Alert
+kind: Receiver
 metadata:
-  name: naw-provider
+  name: github-receiver
   namespace: flux
 spec:
   providerRef:
