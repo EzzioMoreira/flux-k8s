@@ -21,7 +21,7 @@ jobs:
       uses: repo-sync/pull-request@v2
       with:
         source_branch: ""
-        destination_branch: "main"
+        destination_branch: "master"
         github_token: ${{ secrets.GITHUB_TOKEN }}
         pr_title: "${{ github.ref_name }}"
         pr_body: |
