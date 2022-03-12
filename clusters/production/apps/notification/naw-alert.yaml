@@ -13,4 +13,3 @@ spec:
     name: '*'
   providerRef:
     name: naw-provider
-
