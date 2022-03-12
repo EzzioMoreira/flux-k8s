@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: webapp-demo-flux
-        image: 520044189785.dkr.ecr.us-west-2.amazonaws.com/webapp:dbb69244
+        image: 520044189785.dkr.ecr.us-west-2.amazonaws.com/webapp:a7807d5b
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
